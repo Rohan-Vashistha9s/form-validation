@@ -1,0 +1,40 @@
+body
+{
+    background: linear-gradient(#e66465, #9198e5);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+}
+#form-container
+{
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+h2
+{
+    margin: 0px 0px 10px 0px;
+}
+input
+{
+    width: 200px;
+    margin: 10px 0px;
+    padding: 10px;
+}
+.error
+{
+    color: red;
+    margin: 0px;
+    text-align: left;
+}
+input[type="submit"]
+{
+    width: 220px;
+    background-color: #9198e5;
+    border: 0px;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+}
